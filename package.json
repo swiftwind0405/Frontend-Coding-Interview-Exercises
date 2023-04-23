@@ -1,0 +1,20 @@
+{
+  "name": "Frontend-Coding-Interview-Exercises",
+  "version": "1.0.0",
+  "description": "前端编程面试题",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swiftwind0405/Frontend-Coding-Interview-Exercises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swiftwind0405/Frontend-Coding-Interview-Exercises/issues"
+  },
+  "homepage": "https://github.com/swiftwind0405/Frontend-Coding-Interview-Exercises#readme"
+}
