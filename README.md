@@ -26,8 +26,11 @@ npm run remove
 
 ## 题目
 
-| Title | Solution | Difficulty |
-| ----- | -------- | ---------- |
-| 解析一个url的参数 | [js](./exercises/parseUrl.js) | Low |
-| 实现一个发布订阅模式 (eventBus类似) | [js](./exercises/pubSub.js) | Low |
-| 实现一个深拷贝 | [js](./exercises/deepCopy.js) | Low |
+| 题目                                 | 位置                          | 难度   |
+| ------------------------------------ | ----------------------------- | ------ |
+| 解析一个 url 的参数                  | [js](./exercises/parseUrl.js) | Low    |
+| 实现一个发布订阅模式 (eventBus 类似) | [js](./exercises/pubSub.js)   | Low    |
+| 实现一个深拷贝                       | [js](./exercises/deepCopy.js) | Low    |
+| 实现防抖函数                         | [js](./exercises/debounce.js) | Medium |
+| 实现节流函数                         | [js](./exercises/throttle.js) | Low    |
+| 实现柯里化函数                       | [js](./exercises/curry.js)    | Low    |
