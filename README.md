@@ -36,7 +36,7 @@ npm run remove
 | ------------------------------------ | ----------------------------- | ------ |
 | 解析一个 url 的参数                  | [parseUrl](./exercises/parseUrl.js) | Low    |
 | 实现一个发布订阅模式 (eventBus 类似) | [PubSub](./exercises/PubSub.js)   | Low    |
-| 实现一个深拷贝                       | [deepCopy](./exercises/deepCopy.js) | Low    |
-| 实现防抖函数                         | [debounce](./exercises/debounce.js) | Medium |
+| 实现一个深拷贝                       | [deepCopy](./exercises/deepCopy.js) | Medium    |
+| 实现防抖函数                         | [debounce](./exercises/debounce.js) | Low |
 | 实现节流函数                         | [throttle](./exercises/throttle.js) | Low    |
 | 实现柯里化函数                       | [curry](./exercises/curry.js)    | Low    |
