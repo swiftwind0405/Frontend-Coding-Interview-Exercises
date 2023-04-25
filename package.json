@@ -1,24 +1,25 @@
 {
-  "name": "Frontend-Coding-Interview-Exercises",
-  "version": "1.0.0",
-  "description": "前端编程面试题",
-  "main": "index.js",
-  "scripts": {
-    "remove": "node ./scripts/deleteNonTestJsFiles.js",
-    "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/swiftwind0405/Frontend-Coding-Interview-Exercises.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/swiftwind0405/Frontend-Coding-Interview-Exercises/issues"
-  },
-  "homepage": "https://github.com/swiftwind0405/Frontend-Coding-Interview-Exercises#readme",
-  "devDependencies": {
-    "jest": "^29.5.0"
-  }
+    "name": "Frontend-Coding-Interview-Exercises",
+    "version": "1.0.0",
+    "description": "前端编程面试题",
+    "main": "index.js",
+    "scripts": {
+        "remove": "node ./scripts/deleteNonTestJsFiles.js",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/swiftwind0405/Frontend-Coding-Interview-Exercises.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/swiftwind0405/Frontend-Coding-Interview-Exercises/issues"
+    },
+    "homepage": "https://github.com/swiftwind0405/Frontend-Coding-Interview-Exercises#readme",
+    "devDependencies": {
+        "jest": "^29.5.0",
+        "prettier": "^2.2.0"
+    }
 }
