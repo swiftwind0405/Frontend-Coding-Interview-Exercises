@@ -10,7 +10,6 @@ class PubSub {
         } else {
             this.handlers[eventType] = [handler]
         }
-        return true;
     }
 
     // 消息发布
@@ -25,20 +24,12 @@ class PubSub {
 
     // 取消
     remove(eventType, handler) {
-        const index = (this.handlers[eventType] || []).findIndex(item => item === handler)
-        if (index > -1) {
-            this.handlers[eventType].splice(index, 1)
-            return true
+        const handles = this.handlers[eventType] || [];
+        if (!handles || !handles.length) {
+            return;
         }
-        return false
+        this.handlers[eventType].splice(handles.indexOf(handler) >>> 0, 1)
     }
 }
 
-const test1 = new PubSub();
-const fn1 = (...data) => console.log(data);
-test1.on("event1", fn1);
-test1.on("event1", (...data) => console.log(`fn2: ${data}`));
-test1.emit("event1", "hzfe1", "hzfe2", "hzfe3");
-test1.remove("event1", fn1);
-console.log('remove')
-test1.emit("event1", "hzfe1", "hzfe2", "hzfe3");
+module.exports = PubSub;
