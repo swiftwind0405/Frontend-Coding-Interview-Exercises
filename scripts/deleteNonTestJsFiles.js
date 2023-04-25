@@ -1,7 +1,7 @@
 const fs = require('fs-extra');
 const path = require('path');
 
-const exercisesPath = path.join(__dirname, 'exercises');
+const exercisesPath = path.join(__dirname, '../exercises');
 
 // 递归删除非.test.js的js文件
 async function deleteNonTestJsFiles(dir) {
